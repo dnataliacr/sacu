@@ -1,0 +1,91 @@
+.title-body-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0px;
+  background: url("../../../../../images/farm.jpg") no-repeat center;
+  background-size: cover;
+  width: 80%;
+  height: 250px;
+}
+
+.title-body-img:first-child {
+  margin-top: 100px;
+}
+
+.title-border {
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.381);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px 0px 30px 0px;
+}
+
+.title-border h2 {
+  padding: 1rem 1rem;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1209px) {
+  .title-body-img {
+    height: 200px;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 902px) {
+  .title-body-img {
+    height: 180px;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 812px) {
+  .title-border h2 {
+    letter-spacing: 2px;
+  }
+}
+@media screen and (max-width: 689px) {
+  .title-body-img:first-child {
+    margin-top: 50px;
+  }
+  .title-body-img {
+    width: 95%;
+    height: 150px;
+  }
+  .title-border h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .title-body-img {
+    height: 120px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .title-body-img {
+    height: 110px;
+  }
+  .title-border {
+    border-radius: 15px 0px 15px 0px;
+  }
+  .title-border h2 {
+    font-size: 22px;
+    white-space: nowrap;
+    letter-spacing: normal;
+    padding: 0.6rem;
+  }
+}
+@media screen and (max-width: 335px) {
+  .title-border h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 255px) {
+  .title-border h2 {
+    font-size: 15px;
+    padding: 0.5rem;
+  }
+}
