@@ -1,32 +1,30 @@
 import React from "react";
 import styled from "styled-components";
 
-
 const Footer = () => {
   return (
-      <>
-    <FooterBody>
-      <FooterContainer>
-        <FooterContent>
-          <FooterSection>
-            <FooterHeader>Contacto</FooterHeader>
-            <FooterLink>contacto@sacu.org.uy</FooterLink>
-            <FooterLink>099 89 09 67</FooterLink>
-          </FooterSection>
-          <FooterSection>
-            <FooterHeader>Direccion</FooterHeader>
-            <FooterLink>Berna 2189</FooterLink>
-            <FooterLink>Montevideo, Uruguay</FooterLink>
-          </FooterSection>
-        </FooterContent>
-        <FooterNoticeContainer>
-          <FooterNotice>
-            Sociedad de avicultores cabañeros del Uruguay | Todos los derechos
-            reservados | 2021{" "}
-          </FooterNotice>
-        </FooterNoticeContainer>
-      </FooterContainer>
-    </FooterBody>
+    <>
+      <FooterBody>
+        <FooterContainer>
+          <FooterContent>
+            <FooterSection>
+              <FooterHeader>Contacto</FooterHeader>
+              <FooterLink>contacto@sacu.org.uy</FooterLink>
+              <FooterLink>099 89 09 67</FooterLink>
+            </FooterSection>
+            <FooterSection>
+              <FooterHeader>Direccion</FooterHeader>
+              <FooterLink>Montevideo, Uruguay</FooterLink>
+            </FooterSection>
+          </FooterContent>
+          <FooterNoticeContainer>
+            <FooterNotice>
+              Sociedad de avicultores cabañeros del Uruguay | Todos los derechos
+              reservados | 2021{" "}
+            </FooterNotice>
+          </FooterNoticeContainer>
+        </FooterContainer>
+      </FooterBody>
     </>
   );
 };
@@ -79,8 +77,7 @@ const FooterLink = styled.p`
   opacity: 0.65;
 
   &:hover {
-    opacity: 1;
-    font-size: 18px;
+    opacity: 0.9;
   }
 `;
 const FooterNoticeContainer = styled.div``;

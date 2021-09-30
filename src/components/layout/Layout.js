@@ -1,8 +1,8 @@
 import React from "react";
 import "./globalStyles.css";
 import { Helmet } from "react-helmet";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
+import Header from "./header/Header";
+import Footer from "./footer/Footer";
 
 const Layout = ({ children }) => {
   return (

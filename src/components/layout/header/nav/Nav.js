@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 
-import "./navbar.css";
+import "./nav.css";
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
       
