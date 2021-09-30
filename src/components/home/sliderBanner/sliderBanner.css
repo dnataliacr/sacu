@@ -1,0 +1,69 @@
+.autoplay-slider {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 69%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 79%, 0 100%);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .autoplay-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(0% at 0 50%);
+    -webkit-opacity: 0.5;
+    opacity: 0.5;
+  }
+  
+  .autoplay-active {
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
+    -webkit-opacity: 1;
+    opacity: 1;
+    clip-path: circle(250% at 0 200%);
+    -webkit-clip-path: circle(250% at 0 200%);
+  }
+  
+  .autoplay-active img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @media screen and (max-width: 955px) {
+    .autoplay-slider {
+      height: 70vh;
+      clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .autoplay-slider {
+      height: 70vh;
+    }
+    .autoplay-slide {
+  
+  
+      -webkit-opacity: 0.1;
+      opacity: 0.1;
+    }
+    .autoplay-active {
+      transition: opacity 1s ease;
+      -webkit-transition:  opacity 1s ease;
+      -moz-transition:  opacity 1s ease;
+      -o-transition: opacity  1s ease;
+      opacity: 1;
+      -webkit-opacity: 1;
+      clip-path: circle(350% at 0 200%);
+      -webkit-clip-path: circle(350% at 0 200%);
+  
+  
+    }
+    
+  }
+  
