@@ -1,4 +1,4 @@
-### this website is under contruction :hammer:
+### this website is under construction :hammer:
 
 
 made with gatsby. 
