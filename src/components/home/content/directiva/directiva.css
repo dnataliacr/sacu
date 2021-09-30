@@ -1,0 +1,114 @@
+.directiva-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #f8f8f8;
+}
+
+.directiva-container {
+  width: 90%;
+  overflow-x: scroll;
+  margin-bottom: 50px;
+}
+.directiva-container > h2 {
+  padding: 2rem;
+}
+.directiva-table {
+  width: 100%;
+}
+
+.table-body {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(#f3f3f1, #f3f3f1 50%, #fff 50%, #fff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+.header-fixed {
+  height: 100%;
+  overflow: auto;
+  margin-top: 30px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.header-fixed thead th {
+  position: sticky;
+  top: 0;
+  font-weight: 800;
+  background-color: #9f7928;
+
+  color: #ffff;
+}
+.searchBar {
+  height: 30px;
+  border-radius: 30px;
+
+  margin: 5px auto;
+}
+
+.searchTxt {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  font-size: 16px;
+  transition: 0.4s;
+}
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+td,
+th {
+  border-bottom: 1px solid #dddddd;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: #edeef1;
+}
+
+tr:hover td {
+  background-color: #ffffff;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-corner {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
