@@ -9,7 +9,7 @@
 .estandares-container {
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
 
@@ -28,4 +28,14 @@
 .estandares-link:hover {
     transform: scale(1.1);
     color: rgba(0,0,0,0.8);
+}
+
+@media screen and (max-width: 467px)
+{
+   
+    .estandares-link {
+      
+     
+        font-size: 20px;
+    }
 }

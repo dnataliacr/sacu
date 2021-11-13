@@ -20,7 +20,7 @@ const NewhampshirePage = () => {
   }
   
   `)
-  const content = data.allMarkdownRemark.edges[3].node
+  const content = data.allMarkdownRemark.edges[0].node
   return( 
   <>
     <Helmet>

@@ -21,7 +21,7 @@ const RhodeIslandPage = () => {
   }
   
   `)
-  const content = data.allMarkdownRemark.edges[0].node
+  const content = data.allMarkdownRemark.edges[4].node
   
 console.log(content)
   return (

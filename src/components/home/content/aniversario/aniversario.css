@@ -1,0 +1,110 @@
+.aniv-body {
+    border: 5px solid #f8f8f8;
+    padding: 5px;
+  }
+  .aniversario {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    position: relative;
+  }
+  
+  .aniversario:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background: rgb(160, 119, 1);
+    background: linear-gradient(
+      58deg,
+      rgba(160, 119, 1, 0.3029586834733894) 0%,
+      rgba(228, 207, 130, 0.3449754901960784) 53%,
+      rgba(255, 255, 255, 0.19371498599439774) 100%
+    );
+  }
+  
+  .banner {
+    background: url("../../../../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .banner > h3 {
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    color: #9a7502;
+    padding-left: 1rem;
+  
+      font-size: 50px;
+  
+    z-index: 3;
+    text-transform: uppercase;
+  }
+  
+  .aniversario-img > img {
+    z-index: 9;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 1217px) {
+    .banner > h3 {
+      font-size: 40px;
+    }
+    .banner {
+    
+      background-size: contain;
+      
+    }
+    
+  }
+  
+  @media screen and (max-width: 995px) {
+    .banner > h3 {
+      font-size: 35px;
+    }
+  }
+  @media screen and (max-width: 815px) {
+    .banner > h3 {
+      font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 636px) {
+    .banner > h3 {
+      font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 538px) {
+    .banner > h3 {
+      font-size: 30px;
+  
+      padding: 2rem 1rem;
+    }
+    .aniversario-img {
+      display: none;
+    }
+    .aniversario {
+      grid-template-columns: 1fr;
+    }
+    
+  }
+  @media screen and (max-width: 457px) {
+    .banner > h3 {
+      font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 356px) {
+    .banner > h3 {
+      font-size: 20px;
+      padding: 1rem 1rem;
+    }
+  }
+  

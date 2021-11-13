@@ -10,11 +10,9 @@ const Footer = () => {
             <FooterSection>
               <FooterHeader>Contacto</FooterHeader>
               <FooterLink>contacto@sacu.org.uy</FooterLink>
-              <FooterLink>099 89 09 67</FooterLink>
             </FooterSection>
             <FooterSection>
-              <FooterHeader>Direccion</FooterHeader>
-              <FooterLink>Montevideo, Uruguay</FooterLink>
+  
             </FooterSection>
           </FooterContent>
           <FooterNoticeContainer>

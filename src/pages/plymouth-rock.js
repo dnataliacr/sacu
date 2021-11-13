@@ -20,7 +20,7 @@ const PlymouthrockPage = () => {
   }
   
   `)
-  const content = data.allMarkdownRemark.edges[0].node
+  const content = data.allMarkdownRemark.edges[1].node
 
   return( 
   <>

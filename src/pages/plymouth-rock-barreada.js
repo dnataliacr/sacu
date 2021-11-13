@@ -21,7 +21,7 @@ const PlymouthrockbarreadaPage = () => {
   }
   
   `)
-  const content = data.allMarkdownRemark.edges[1].node
+  const content = data.allMarkdownRemark.edges[2].node
   return( 
   <>
     <Helmet>
