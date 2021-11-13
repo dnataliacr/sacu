@@ -6,14 +6,14 @@ const Directiva = () => {
   return (
     <div className="directiva-body">
       <div className="directiva-container">
-        <h2>Comision directiva para el ejercicio 2021 - 2022 </h2>
+        <h2>Comisión directiva para el ejercicio 2021 - 2022 </h2>
         <table className="directiva-table">
           <thead>
             <tr>
               <th> </th>
               <th>TITULARES</th>
               <th>SUPLENTES</th>
-              <th>Comision Fiscal</th>
+              <th>Comisiión Fiscal</th>
             </tr>
           </thead>
           <tbody>
