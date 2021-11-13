@@ -5,7 +5,7 @@ import image1 from "../../../images/rooster.jpg"
 import image2 from "../../../images/form.jpg";
 import image3 from "../../../images/slider1.jpg";
 
-import './sliderbanner.css'
+import './sliderBanner.css'
 const SliderBanner = () => {
   const data = [{ img: image1 }, { img: image2 }, { img: image3 }];
   const [current, setCurrent] = useState(0);
