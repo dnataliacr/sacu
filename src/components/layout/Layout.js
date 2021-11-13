@@ -3,8 +3,8 @@ import "./globalStyles.css";
 import { Helmet } from "react-helmet";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
-
 import imageUrl from '../../images/logo.jpg'
+import icon from '../.././../favico.ico'
 
 const Layout = ({ children }) => {
   return (
@@ -16,8 +16,9 @@ const Layout = ({ children }) => {
                 {name: 'icon', href: imageUrl}
               ]}>
 
-             
+        
         <title>SOCIEDAD DE AVICULTORES CABAÑEROS DEL URUGUAY</title>
+        <link rel="icon" href={icon} type='image/x-icon' />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
