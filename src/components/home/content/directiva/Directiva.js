@@ -13,7 +13,7 @@ const Directiva = () => {
               <th> </th>
               <th>TITULARES</th>
               <th>SUPLENTES</th>
-              <th>Comisiión Fiscal</th>
+              <th>Comisión Fiscal</th>
             </tr>
           </thead>
           <tbody>
