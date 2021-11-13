@@ -1,0 +1,102 @@
+.estandar-body {
+    margin: 50px 50px;
+  display: flex;
+  min-height: 100vh;
+  max-width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.estandar-container {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    border: 15px solid #f8f8f8;
+}
+
+.estandar-container > h2 {
+    text-align: left;
+    font-family: "Playfair Display SC", serif !important;
+    font-weight: 800 !important;
+    position: relative;
+    font-size: 45px;
+    margin-bottom: 50px;
+    padding-bottom: .7rem;
+    padding-top: 50px;
+    border-bottom: 1px solid black;
+}
+
+
+
+.estandar-text > p {
+    text-align: left;
+    line-height: 1.9rem;
+    padding: 0px 2rem  50px 2rem;
+}
+
+.estandar-text > h3 {
+    text-align: left;
+    line-height: 1.5rem;
+    padding: 0px 4rem  20px 4rem;
+    width: 100%;
+  
+}
+
+@media screen and (max-width: 1001px)
+{
+    .estandar-body {
+        margin: 30px 30px;
+
+    }
+    
+    .estandar-container {
+ 
+        width: 90%;
+     
+    } 
+}
+@media screen and (max-width: 745px)
+{
+    .estandar-body {
+        margin: 30px 10px;
+
+    }
+    .estandar-container {
+ 
+        width: 100%;
+     
+    } 
+}
+@media screen and (max-width: 467px)
+{
+   
+    .estandar-container > h2 {
+      
+     
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 367px)
+{
+    .estandar-body {
+        margin: 30px 5px;
+
+    }
+    .estandar-container {
+ 
+        width: 100%;
+     
+    } 
+    .estandar-container > h2 {
+      
+        font-size: 30px;
+        margin-bottom: 50px;
+        padding-bottom: .7rem;
+        padding-top: 50px;
+
+    }
+}

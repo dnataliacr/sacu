@@ -1,12 +1,12 @@
 import * as React from "react"
 import Layout from "../components/layout/Layout"
 
-import Home from "../components/home/Home"
+import Estandares from "../components/estandar/Estandares"
 // markup
 const IndexPage = () => {
   return (
 <Layout>
-  <Home/>
+  <Estandares/>
 </Layout>
   )
 }

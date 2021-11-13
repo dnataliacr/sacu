@@ -1,14 +1,14 @@
 import * as React from "react"
 import Layout from "../components/layout/Layout"
 
-import Home from "../components/home/Home"
+import Manual from "../components/manual/Manual"
 // markup
-const IndexPage = () => {
+const ManualPage = () => {
   return (
 <Layout>
-  <Home/>
+  <Manual/>
 </Layout>
   )
 }
 
-export default IndexPage
+export default ManualPage

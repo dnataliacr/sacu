@@ -23,21 +23,27 @@ const NavBar = () => {
           <Link to="/" className="nav-link">
             Institucional
           </Link>
-          <Link to="/galeria" className="nav-link">
+         {/** <Link to="/galeria" className="nav-link">
             Galeria
           </Link>
-
+          */} 
+{/**
           <Link to="/razas" className="nav-link">
             Razas
           </Link>
-          <Link to="/resultados" className="nav-link">
-            Resultados
+          */} 
+     
+          <Link to="/estandares" className="nav-link">
+            Estandares
           </Link>
+       
+              
           <Link to="/calendario" className="nav-link">
             Calendario
           </Link>
-          <Link to="/sabiasque" className="nav-link">
-            Sabias que?
+              
+          <Link to="/manual" className="nav-link">
+            Manual de incubación
           </Link>
         </div>
       </nav>
