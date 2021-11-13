@@ -2,8 +2,8 @@ import React, { useState, useEffect, useCallback } from "react";
 
 
 import image1 from "../../../images/rooster.jpg"
-import image2 from "../../../images/form.jpg";
-import image3 from "../../../images/slider1.jpg";
+import image2 from "../../../images/galli.jpg";
+import image3 from "../../../images/sabias.jpg";
 
 import './sliderBanner.css'
 const SliderBanner = () => {
